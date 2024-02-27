@@ -14,6 +14,7 @@ m= 0.1 # Tasa de retención
 weib_a= 5 # Parámetro de forma de la distribución de Weibull
 T= 100 # Duración de la simulación
 std_threshold= 5 # Umbral de desviación estándar
+labels = ['v = 0.1', 'v = 1', 'v = 2', 'v = 3']
 
 execute(std_threshold, n_0, a_0, lamb, c, v1, m, weib_a, T, "Tasa de llegada de nuevos clientes", 0.1)
 execute(std_threshold, n_0, a_0, lamb, c, v2, m, weib_a, T, "Tasa de llegada de nuevos clientes", 1)
@@ -21,4 +22,4 @@ execute(std_threshold, n_0, a_0, lamb, c, v3, m, weib_a, T, "Tasa de llegada de 
 execute(std_threshold, n_0, a_0, lamb, c, v4, m, weib_a, T, "Tasa de llegada de nuevos clientes", 3)
 
 #Comparar los diferentes casos prueba
-compare()
+compare(labels)

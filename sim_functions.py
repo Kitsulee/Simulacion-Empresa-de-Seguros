@@ -82,9 +82,10 @@ def execute(std_threshold, n_0, a_0, lamb, c, v, m, weib_a, T, varible_name, var
     print("Standard deviation: ", std)
     print("Iterations: ", iter_count)
 
-def compare():
+def compare(labels):
     for i in range(len(comparative)):
-        plt.plot(comparative[i])
+        plt.plot(comparative[i], label = labels[i])
+        plt.legend()
     plt.xlabel('Time')
     plt.ylabel('Capital')
     plt.title('Comparación de los diferentes casos prueba')
