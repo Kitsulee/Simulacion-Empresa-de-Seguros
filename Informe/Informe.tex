@@ -146,6 +146,84 @@ Luego de un análisis de como debiera ser el comportamiento de cada uno de los e
  \subsubsection{Ejemplo 2}
  \includegraphics[scale = 0.8]{lamb2.png}
  Este gráfico indica que la compañía de seguros tiene un alto riesgo de caer en bancarrota. La tendencia general del capital es descendente. Las fluctuaciones en el capital podrían ser causadas por eventos aleatorios, como la llegada de grandes reclamaciones o la pérdida de clientes.\\
+
+ \subsubsection{Ejemplo 3}
  \includegraphics[scale = 0.8]{lamb3.png}
+ El capital de la compañía de seguros disminuye a lo largo del tiempo, sin embargo se observan más fluctuaciones y picos que en los ejemplos anteriores, en algunos casos el capital tiene una fuerte tendencia a la disminución, y en otros primero se incrementa, con algunas fluctuaciones hasta finalmente decaer completamente. \\
+
+ \subsubsection{Ejemplo 4}
  \includegraphics[scale = 0.8]{lamb4.png}
+ En este ejemplo, la tendencia del capital de la empresa es creciente, hasta un tiempo máximo definido. 
+ Se pudieran usar herramientas estadísticas para predecir si eventualmente la empresa caerá en bancarrota o no, a partir de los datos que ya se han recopilado. La idea que se tuvo inicialmente fue realizar Regresión Logística para ello. 
+
+ \subsubsection{Gráfico Comparativo de los Diferentes Casos}
+ \includegraphics[scale = 0.8]{lambcompare.png}
+
+
+ \subsection{Análisis de comportamiento variando el parámetro v}
+
+ \subsubsection{Ejemplo 1}
+ \includegraphics[scale = 0.8]{v1.png}
+
+ \subsubsection{Ejemplo 2}
+ \includegraphics[scale = 0.8]{v2.png}
+
+ \subsubsection{Ejemplo 3}
+ \includegraphics[scale = 0.8]{v3.png}
+
+ \subsubsection{Ejemplo 4}
+ \includegraphics[scale = 0.8]{v4.png}
+
+ \subsubsection{Gráfico Comparativo de los Diferentes Casos}
+\includegraphics[scale = 0.8]{vcomp.png}
+
+En estos casos, se ha variado la tasa de llegada de nuevos clientes a la compañía de seguros, manteniendo una tasa de llegada de reclamaciones fija ($lamb$=23). Se observa en los cuatro casos, un comportamiento bastante similar en cuanto al decrecimiento del capital. 
+
+\subsection{Análisis de comportamiento variando el parámetro weib\_a}
+
+\subsubsection{Ejemplo 1}
+\includegraphics[scale = 0.8]{weib1.png}
+
+\subsubsection{Ejemplo 2}
+\includegraphics[scale = 0.8]{weib2.png}
+
+\subsubsection{Ejemplo 3}
+\includegraphics[scale = 0.8]{weib3.png}
+
+\subsubsection{Ejemplo 4}
+\includegraphics[scale = 0.8]{weib4.png}
+
+\subsubsection{Gráfico Comparativo de los Diferentes Casos}
+\includegraphics[scale = 0.8]{weibcomp.png}
+
+En estos casos se varía la tasa de costos de las reclamaciones, a mayor valor, más rapido la compañía cae en bancarrota, siendo el caso $weib\_a$ = 2 el que más demora en caer a 0.\\
+
+\subsection{Observaciones}
+La variación de la tasa de llegada de las reclamaciones es determinante en el comportamiento del capital de la compañía, cayendo en bancarrota en 3 de los 4 casos probados. En otros casos, no ilustrados, se obtuvo valores grandes en cuanto al crecimiento del capital, utilizando valores muy pequeños del parámetro $lamb$. \\
+Por otro lado, se observa que a menor tasa de costo de las reclamaciones, más estable se comporta el capital de la empresa, demorando más la decadencia a 0 del mismo. \\
+La variación de la llegada de los nuevos clientes, no aportó cambios significativos al comportamiento del capital. \\
+
+\subsection{Selección de otras Distribuciones}
+Se realizó un análisis, variando alguna de las distribuciones definidas inicialmente. 
+Para la llegada de las reclamaciones se cambió a una Distribución Normal y para los costos de las mismas se utilizó una Dsitribución Gamma. 
+Se analiza el comportamiento del capital de la compañía de seguros, haciendo variar la tasa de llegada de las reclamaciones (parámetro lamb), debido a que anteriormente fue el que más cambios aportó entre los ejemplos. 
+
+\subsubsection{Ejemplo 1}
+\includegraphics[scale = 0.8]{dis1.png}
+
+\subsubsection{Ejemplo 2}
+\includegraphics[scale = 0.8]{dis2.png}
+
+\subsubsection{Ejemplo 3}
+\includegraphics[scale = 0.8]{dis3.png}
+
+\subsubsection{Ejemplo 4}
+\includegraphics[scale = 0.8]{dis4.png}
+
+\subsubsection{Gráfico Comparativo de los Diferentes Casos}
+\includegraphics[scale = 0.8]{dicomp.png}
+
+En estos casos, el comportamiento es bastante similar, con una fuerte tendencia decreciente. Se quería observar qué tanto influía la selección de la Distribución adecuada o que mejor describiera el problema en el resultado del comportamiento del capital.
+A pesar de que se esocgió variar la tasa de llegada de las reclamaciones, se podría observar también variando los otros parámetros anteriormente analizados. 
+
 \end{document}
