@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1709090760 "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" "build/Informe.pdf" "Informe" 1709090762
+["pdflatex"] 1709092548 "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" "build/Informe.pdf" "Informe" 1709092557
   "/etc/texmf/web2c/texmf.cnf" 1653227187 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/diani/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1681188461 11524 587d8f135faf1cfa8ae8c77eac31bbbf ""
-  "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" 1709090759 17213 1881154e2739c3ab182b9df4e625037f ""
+  "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" 1709092545 17614 7758c6e3641f4d3cf46482dd40758537 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -34,8 +34,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1681181340 125915 807ff72f6023b33a59c427bfd156a3d1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1687863069 1477551 dc12ca333f6323312e3bbb675b151a64 ""
-  "Informe.tex" 1709090759 17213 1881154e2739c3ab182b9df4e625037f ""
-  "build/Informe.aux" 1709090762 3291 f055d3cb41ac512d3303c58ce6ba09f0 "pdflatex"
+  "Informe.tex" 1709092545 17614 7758c6e3641f4d3cf46482dd40758537 ""
+  "build/Informe.aux" 1709092556 3291 f055d3cb41ac512d3303c58ce6ba09f0 "pdflatex"
   "dicomp.png" 1709090401 47225 ba47272ced41490123767bf4b2d37c60 ""
   "dis1.png" 1709090307 60630 32b77a554b086c92a8398675ea98b509 ""
   "dis2.png" 1709090317 54303 cea766ddf4cd49d19778e2b63a552676 ""

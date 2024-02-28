@@ -133,7 +133,8 @@ Luego de un análisis de como debiera ser el comportamiento de cada uno de los e
  En el archivo \texttt{extra\_distributions\_functions.py} se encuentran funciones similares a las descritas en \texttt{sim\_functions.py} pero utilizando diferentes distribuciones a las escogidas inicialmente. Esto se realizó con fines experimentales para observar qué tanto cambiaba la simulación. Se realizó variando el parámetro $lamb$ pues es el que su variación más cambios aporta al comportamiento. 
 
  \section{Resultados y Experimentos}
- Se realizaron varias simulaciones, donde se variaban diferentes parámetros, en este caso: $lamb$, $v$ y $weib\_a$.
+ Se realizaron varias simulaciones, donde se variaban diferentes parámetros, en este caso: $lamb$, $v$ y $weib\_a$. La variable de interés que se desea observar es $a$, representando el capital de la compañía de seguros. Específicamente se quiere observar si la compañía de seguros cae o no en bancarrota, bajo ciertas condiciones y diferentes valores de los parámetros. \\
+ Las Simulaciones se realizarán hasta que el valor $a$ llegue debajo de cero, o que se alcance un tiempo máximo sin que esto suceda. 
 
  \subsection{Análisis de comportamiento variando el parámetro lamb}
  El parámetro $lamb$ representa la tasa de llegada de las reclamaciones de los clientes a la empresa de seguros. Se realizaron 4 ejemplos diferentes, donde una ligera variación del parámetro $lamb$ ocasiona una diferencia significativa del comportamiento de la compañía. 

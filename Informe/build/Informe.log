@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.27)  27 FEB 2024 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.27)  27 FEB 2024 22:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -119,15 +119,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 <lamb1.png, id=27, 462.528pt x 346.896pt>
 File: lamb1.png Graphic file (type png)
 <use lamb1.png>
-Package pdftex.def Info: lamb1.png  used on input line 143.
+Package pdftex.def Info: lamb1.png  used on input line 144.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 143--145
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 144--146
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
@@ -135,15 +135,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--145
 <lamb2.png, id=32, 462.528pt x 346.896pt>
 File: lamb2.png Graphic file (type png)
 <use lamb2.png>
-Package pdftex.def Info: lamb2.png  used on input line 147.
+Package pdftex.def Info: lamb2.png  used on input line 148.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 147--149
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 148--150
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
@@ -151,15 +151,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 <lamb3.png, id=38, 462.528pt x 346.896pt>
 File: lamb3.png Graphic file (type png)
 <use lamb3.png>
-Package pdftex.def Info: lamb3.png  used on input line 151.
+Package pdftex.def Info: lamb3.png  used on input line 152.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 151--153
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 152--154
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
@@ -167,10 +167,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
 <lamb4.png, id=43, 462.528pt x 346.896pt>
 File: lamb4.png Graphic file (type png)
 <use lamb4.png>
-Package pdftex.def Info: lamb4.png  used on input line 155.
+Package pdftex.def Info: lamb4.png  used on input line 156.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 155--158
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 156--159
 []
  []
 
@@ -178,10 +178,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 155--158
 <lambcompare.png, id=48, 462.528pt x 346.896pt>
 File: lambcompare.png Graphic file (type png)
 <use lambcompare.png>
-Package pdftex.def Info: lambcompare.png  used on input line 160.
+Package pdftex.def Info: lambcompare.png  used on input line 161.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 160--161
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 161--162
 [] 
  []
 
@@ -189,10 +189,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 160--161
 <v1.png, id=53, 462.528pt x 346.896pt>
 File: v1.png Graphic file (type png)
 <use v1.png>
-Package pdftex.def Info: v1.png  used on input line 166.
+Package pdftex.def Info: v1.png  used on input line 167.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 166--167
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 167--168
 [] 
  []
 
@@ -200,10 +200,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 166--167
 <v2.png, id=58, 462.528pt x 346.896pt>
 File: v2.png Graphic file (type png)
 <use v2.png>
-Package pdftex.def Info: v2.png  used on input line 169.
+Package pdftex.def Info: v2.png  used on input line 170.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 169--170
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 170--171
 [] 
  []
 
@@ -211,10 +211,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 169--170
 <v3.png, id=63, 462.528pt x 346.896pt>
 File: v3.png Graphic file (type png)
 <use v3.png>
-Package pdftex.def Info: v3.png  used on input line 172.
+Package pdftex.def Info: v3.png  used on input line 173.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 172--173
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 173--174
 [] 
  []
 
@@ -222,10 +222,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 172--173
 <v4.png, id=69, 462.528pt x 346.896pt>
 File: v4.png Graphic file (type png)
 <use v4.png>
-Package pdftex.def Info: v4.png  used on input line 175.
+Package pdftex.def Info: v4.png  used on input line 176.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 175--176
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 176--177
 [] 
  []
 
@@ -233,10 +233,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 175--176
 <vcomp.png, id=74, 462.528pt x 346.896pt>
 File: vcomp.png Graphic file (type png)
 <use vcomp.png>
-Package pdftex.def Info: vcomp.png  used on input line 178.
+Package pdftex.def Info: vcomp.png  used on input line 179.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 178--179
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 179--180
 [] 
  []
 
@@ -244,10 +244,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 178--179
 <weib1.png, id=79, 462.528pt x 346.896pt>
 File: weib1.png Graphic file (type png)
 <use weib1.png>
-Package pdftex.def Info: weib1.png  used on input line 185.
+Package pdftex.def Info: weib1.png  used on input line 186.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 185--186
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 186--187
 [] 
  []
 
@@ -255,10 +255,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 185--186
 <weib2.png, id=84, 462.528pt x 346.896pt>
 File: weib2.png Graphic file (type png)
 <use weib2.png>
-Package pdftex.def Info: weib2.png  used on input line 188.
+Package pdftex.def Info: weib2.png  used on input line 189.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 188--189
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 189--190
 [] 
  []
 
@@ -266,10 +266,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 188--189
 <weib3.png, id=89, 462.528pt x 346.896pt>
 File: weib3.png Graphic file (type png)
 <use weib3.png>
-Package pdftex.def Info: weib3.png  used on input line 191.
+Package pdftex.def Info: weib3.png  used on input line 192.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 191--192
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 192--193
 [] 
  []
 
@@ -277,10 +277,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 191--192
 <weib4.png, id=94, 462.528pt x 346.896pt>
 File: weib4.png Graphic file (type png)
 <use weib4.png>
-Package pdftex.def Info: weib4.png  used on input line 194.
+Package pdftex.def Info: weib4.png  used on input line 195.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 194--195
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 195--196
 [] 
  []
 
@@ -288,20 +288,20 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 194--195
 <weibcomp.png, id=100, 462.528pt x 346.896pt>
 File: weibcomp.png Graphic file (type png)
 <use weibcomp.png>
-Package pdftex.def Info: weibcomp.png  used on input line 197.
+Package pdftex.def Info: weibcomp.png  used on input line 198.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 197--198
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 198--199
 [] 
  []
 
 [19 <./weib4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 203--206
 
  []
 
@@ -309,20 +309,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--205
 <dis1.png, id=109, 462.528pt x 346.896pt>
 File: dis1.png Graphic file (type png)
 <use dis1.png>
-Package pdftex.def Info: dis1.png  used on input line 212.
+Package pdftex.def Info: dis1.png  used on input line 213.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 212--213
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 213--214
 [] 
  []
 
 <dis2.png, id=110, 462.528pt x 346.896pt>
 File: dis2.png Graphic file (type png)
 <use dis2.png>
-Package pdftex.def Info: dis2.png  used on input line 215.
+Package pdftex.def Info: dis2.png  used on input line 216.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 215--216
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 216--217
 [] 
  []
 
@@ -330,10 +330,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 215--216
 <dis3.png, id=115, 462.528pt x 346.896pt>
 File: dis3.png Graphic file (type png)
 <use dis3.png>
-Package pdftex.def Info: dis3.png  used on input line 218.
+Package pdftex.def Info: dis3.png  used on input line 219.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 218--219
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 219--220
 [] 
  []
 
@@ -341,10 +341,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 218--219
 <dis4.png, id=120, 462.528pt x 346.896pt>
 File: dis4.png Graphic file (type png)
 <use dis4.png>
-Package pdftex.def Info: dis4.png  used on input line 221.
+Package pdftex.def Info: dis4.png  used on input line 222.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 221--222
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 222--223
 [] 
  []
 
@@ -352,10 +352,10 @@ Overfull \hbox (25.02289pt too wide) in paragraph at lines 221--222
 <dicomp.png, id=125, 462.528pt x 346.896pt>
 File: dicomp.png Graphic file (type png)
 <use dicomp.png>
-Package pdftex.def Info: dicomp.png  used on input line 224.
+Package pdftex.def Info: dicomp.png  used on input line 225.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
 
-Overfull \hbox (25.02289pt too wide) in paragraph at lines 224--225
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 225--226
 [] 
  []
 
@@ -369,7 +369,7 @@ Here is how much of TeX's memory you used:
  62 hyphenation exceptions out of 8191
  55i,6n,62p,905b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/diani/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on build/Informe.pdf (26 pages, 1111200 bytes).
+Output written on build/Informe.pdf (26 pages, 1111523 bytes).
 PDF statistics:
  174 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
