@@ -38,6 +38,17 @@ El objetivo de este proyecto es modelar y analizar el comportamiento de una comp
 \end{itemize}
 
 \section{Detalles de la Implementación}
+
+\subsection{Distribuciones escogidas}
+Luego de un análisis de como debiera ser el comportamiento de cada uno de los eventos (llegada de clientes, llegada de reclamaciones, etc.) se escogieron las siguientes Distribuciones para realizar la simulación:
+\begin{itemize}
+    \item Llegada de nuevos clientes: Se eligió la distribución de Poisson debido a que la tasa de llegada de nuevos clientes se considera constante o varía poco a lo largo del tiempo, donde el parámetro $\lambda$ ($lamb$) representa la tasa de llegada de los clientes por unidad de tiempo.
+    \item Cantidad de reclamaciones: Igualmente se escogió la Distribución de Poisson por el mismo motivo anterior.
+    \item Costo de las Reclamaciones: Se ha utilizado la distribución de Weibull pues esta permite modelar costos que pueden ser asimétricos y con colas pesadas.
+    \item Tasa de retención de los clientes: Se ha escogido la Distribución Exponencial debido a su simplicidad y a que se ajusta bien a la aleatoriedad del tiempo que los clientes permanecen con la empresa.
+    El parámetro $m$ de la distribución exponencial representa la tasa promedio de abandono de clientes.
+
+\end{itemize}
  \subsection{Pasos seguidos para realizar la Implementación}
  \begin{itemize}
     \item \underline{Definir las variables y parámetros:} Es necesario identificar y definir las variables y parámetros relevantes del problema, como el número inicial de asegurados, el capital inicial, las distribuciones de reclamaciones y tiempos, la tasa de llegada de nuevos clientes y la tasa fija de pago, entre otros.
@@ -121,4 +132,6 @@ El objetivo de este proyecto es modelar y analizar el comportamiento de una comp
  En los archivos \texttt{test\_lambda.py}, \texttt{test\_v.py} y \texttt{test\_weib\_a.py} se encuentran los llamados a los métodos de la simulación, con diferentes casos prueba, variando los respectivos parámetros: $lamb$, $v$ y $weib\_a$.\\
  En el archivo \texttt{extra\_distributions\_functions.py} se encuentran funciones similares a las descritas en \texttt{sim\_functions.py} pero utilizando diferentes distribuciones a las escogidas inicialmente. Esto se realizó con fines experimentales para observar qué tanto cambiaba la simulación. Se realizó variando el parámetro $lamb$ pues es el que su variación más cambios aporta al comportamiento. 
 
+ \section{Resultados y Experimentos}
+ 
 \end{document}
