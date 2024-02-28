@@ -20,6 +20,105 @@
 
 \section{Introducción}
 
-El objetivo de este proyecto es modelar y analizar el comportamiento de una compañía de seguros, simulando eventos como la llegada de reclamaciones por parte de los clientes asegurados, pérdida de clientes en la empresa o la llegada de nuevos. De forma puntual, se quiere determinar si bajo ciertas condiciones de los parámetros anteriormente mencionados, la compañía cae o no en bancarrota.
+El objetivo de este proyecto es modelar y analizar el comportamiento de una compañía de seguros, simulando eventos como la llegada de reclamaciones por parte de los clientes asegurados, pérdida de clientes en la empresa o la llegada de nuevos. De forma puntual, se quiere determinar si bajo ciertas condiciones de los parámetros anteriormente mencionados, la compañía cae o no en bancarrota. Se comenzará con un número inicial de clientes n0 y un capital inicial a0 (mayor o igual a 0). A través de simulaciones, se estimará el tiempo en el cual la compañía llega a un estado de bancarrota, es decir, cuando el capital disponible es insuficiente para cubrir las reclamaciones y gastos operativos.
+
+\subsection{Variables que describen el problema}
+\begin{itemize}
+    \item $n_0$: Número inicial de asegurados en la compañía de seguros.
+    \item $a_0$: Capital inicial de la compañía de seguros.
+    \item $n$: Número de clientes de la compañía de seguros en un tiempo dado.
+    \item $a$: Capital de la compañía de seguros en un tiempo dado.
+    \item $v$: Tasa de llegada de nuevos clientes a la empresa de seguros.
+    \item $M$: Distribución común que modela la generación de reclamaciones por parte de los asegurados.
+    \item $F$: Distribución que modela los montos de reclamación.
+    \item $\mu$: Distribución que modela el tiempo que cada asegurado existente permanece con la compañía.
+    \item $c$: Tasa fija que los asegurados pagan a la compañía de seguros por unidad de tiempo.
+    \item $T$: Duración de la Simulación.
+    \item $\lambda$: Tasa de llegada de nuevos clientes.
+\end{itemize}
+
+\section{Detalles de la Implementación}
+ \subsection{Pasos seguidos para realizar la Implementación}
+ \begin{itemize}
+    \item \underline{Definir las variables y parámetros:} Es necesario identificar y definir las variables y parámetros relevantes del problema, como el número inicial de asegurados, el capital inicial, las distribuciones de reclamaciones y tiempos, la tasa de llegada de nuevos clientes y la tasa fija de pago, entre otros.
+    \item \underline{Generar las distribuciones:} Utilizando las distribuciones definidas, se deben generar las reclamaciones y los tiempos de permanencia de los asegurados existentes. Esto se puede hacer utilizando funciones o métodos adecuados según la distribución elegida.
+    \item \underline{Simulación del tiempo de bancarrota:} Mediante un bucle o ciclo, se realizarán iteraciones para simular el paso del tiempo y evaluar el estado financiero de la compañía en cada período. Se calculará el capital disponible en cada paso, teniendo en cuenta los ingresos generados por los asegurados existentes y los gastos en reclamaciones.
+    \item \underline{Estimación del tiempo de bancarrota:} Durante la simulación, se deben monitorear los cambios en el capital disponible y determinar cuándo la compañía alcanza un estado de bancarrota. Esto puede basarse en una condición específica, como cuando el capital disponible cae por debajo de un umbral predefinido.
+    \item \underline{Recopilación de resultados:} Durante la simulación, se deben recopilar los resultados relevantes, como el tiempo en el que se alcanza la bancarrota en cada iteración, el tiempo promedio de bancarrota y la desviación estándar de los tiempos de bancarrota.
+    \item \underline{Análisis de resultados:} Una vez finalizada la simulación, se deben analizar los resultados obtenidos. Esto puede implicar calcular la media y la desviación estándar de los tiempos de bancarrota, realizar gráficos para visualizar la distribución de los resultados y realizar comparaciones entre diferentes escenarios o configuraciones de variables.
+ \end{itemize}
+
+ \subsection{Descripción de archivos y métodos implementados}
+ Para la realización de la simulación se implementaron diferentes métodos para mayor organización de cada etapa de la simulación. 
+
+ \begin{itemize}
+    \item \texttt{simulate\_insurance\_company}: \\
+        Parámetros de entrada:
+        \begin{itemize}
+            \item $n_0$: Número inicial de asegurados en la compañía de seguros.
+            \item $a_0$: Capital inicial de la compañía de seguros.
+            \item $lamb$: Tasa de llegada de reclamaciones de clientes existentes (distribución de Poisson).
+            \item $c$: Tarifa fija por cliente. 
+            \item $v$: Tasa de llegada de nuevos clientes (distribución de Poisson).
+            \item $m$: Parámetro de escala para la tasa de retención de clientes existentes (distribución exponencial).
+            \item $weib\_a$: Parámetro de forma para la distribución de costes de reclamación (distribución de Weibull).
+            \item $T$: Tiempo máximo de simulación.
+        \end{itemize}
+        Esta función simula las operaciones de una compañía de seguros durante un tiempo específico. La función devuelve el tiempo en el que la empresa quiebra (si ocurre antes de T) y la matriz que contiene el capital de la empresa en cada paso de tiempo.
+        En cada iteración (paso de una unidad de tiempo) la función realiza las siguientes acciones:
+        \begin{itemize}
+            \item Genera el número de reclamaciones de clientes existentes utilizando la distribución de Poisson con parámetro $lamb$.
+            \item Genera el coste de cada reclamación utilizando la distribución de Weibull con parámetro $weib\_a$.
+            \item Calcula el ingreso total de las cuotas de los clientes $(n * c)$.
+            \item Calcula el gasto total de las reclamaciones.
+            \item Genera el número de nuevos clientes utilizando la distribución de Poisson con parámetro $v$.
+            \item Simula la retención de clientes existentes utilizando la distribución exponencial con parámetro $m$.
+            \item Actualiza el número de clientes ($n$) y el capital de la compañía ($a$) en función de los ingresos, los gastos, los nuevos clientes y los clientes retenidos.
+            \item Añade el capital actual a una matriz $a\_array$ para su seguimiento.
+        \end{itemize}
+    \item \texttt{estimate\_bankruptcy\_time}: \\
+    Parámetros de entrada:
+    \begin{itemize}
+        \item $n_0$: Número inicial de asegurados en la compañía de seguros.
+            \item $a_0$: Capital inicial de la compañía de seguros.
+            \item $lamb$: Tasa de llegada de reclamaciones de clientes existentes (distribución de Poisson).
+            \item $c$: Tarifa fija por cliente. 
+            \item $v$: Tasa de llegada de nuevos clientes (distribución de Poisson).
+            \item $m$: Parámetro de escala para la tasa de retención de clientes existentes (distribución exponencial).
+            \item $weib\_a$: Parámetro de forma para la distribución de costes de reclamación (distribución de Weibull).
+            \item $T$: Tiempo máximo de simulación.
+            \item $std\_threshold$: Umbral de desviación estándar para los tiempos de quiebra.
+    \end{itemize}
+    Ejecuta repetidamente la función \texttt{simulate\_insurance\_company} hasta que se cumple un determinado criterio:\\
+
+    1-Se ha ejecutado un número mínimo de simulaciones (al menos 30 en este caso).\\
+    2-La desviación estándar de los tiempos de quiebra en todas las simulaciones está por debajo del $std\_threshold$. Esto asegura un cierto nivel de variabilidad en los resultados.
+
+    La función entonces calcula y devuelve el tiempo medio de quiebra, la desviación estándar de los tiempos de quiebra, el número total de iteraciones necesarias y una matriz que contiene las matrices de capital para todas las simulaciones.
+
+    \item \texttt{plot\_ex}: \\ 
+         Parámetros de entrada:
+         \begin{itemize}
+            \item $variable$: Nombre de la variable que se está graficando (utilizado para el título).
+            \item $value$: Valor de la variable para esta simulación específica.
+            \item $amounts$: Una matriz que contiene el capital de la empresa en cada paso de tiempo para múltiples simulaciones.
+         \end{itemize}
+         La función itera a través de cada simulación en la matriz $amounts$ y grafica los valores de capital a lo largo del tiempo. A continuación, muestra la gráfica con etiquetas y un título que indica la variable y su valor.
+
+    \item \texttt{execute}: \\
+           Función central que actúa como contenedor de las demás funciones y realiza las siguientes funcionalidades: 
+           \begin{itemize}
+            \item Llama a \texttt{estimate\_bankruptcy\_time} para realizar simulaciones y obtener estadísticas.
+            \item Llama a \texttt{plot\_ex} para visualizar el capital de la empresa a lo largo del tiempo para este conjunto específico de parámetros.
+            \item Calcula el capital medio en todas las simulaciones en cada paso de tiempo.
+            \item Almacena la serie de capital medio en una lista $comparative$.
+            \item Muestra en consola la media, la desviación estándar y el número de iteraciones de la función \texttt{estimate\_bankruptcy\_time}.
+           \end{itemize}
+    \item \texttt{compare}: \\
+    Esta función toma una lista de etiquetas como entrada. Asume que la lista $comparative$ contiene múltiples series de capital medio de diferentes simulaciones. es utilizada para hacer una comparación final de los resultados. 
+ \end{itemize}
+ Todas estas funciones se encuentran dentro del archivo \texttt{sim\_functions.py}.\\
+ En los archivos \texttt{test\_lambda.py}, \texttt{test\_v.py} y \texttt{test\_weib\_a.py} se encuentran los llamados a los métodos de la simulación, con diferentes casos prueba, variando los respectivos parámetros: $lamb$, $v$ y $weib\_a$.\\
+ En el archivo \texttt{extra\_distributions\_functions.py} se encuentran funciones similares a las descritas en \texttt{sim\_functions.py} pero utilizando diferentes distribuciones a las escogidas inicialmente. Esto se realizó con fines experimentales para observar qué tanto cambiaba la simulación. Se realizó variando el parámetro $lamb$ pues es el que su variación más cambios aporta al comportamiento. 
 
 \end{document}
