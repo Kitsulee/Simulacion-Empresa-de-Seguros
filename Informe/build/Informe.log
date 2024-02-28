@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.27)  27 FEB 2024 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.27)  27 FEB 2024 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -115,20 +115,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[4] [5] (build/Informe.aux) ) 
+[4]
+<lamb1.png, id=27, 462.528pt x 346.896pt>
+File: lamb1.png Graphic file (type png)
+<use lamb1.png>
+Package pdftex.def Info: lamb1.png  used on input line 143.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 143--145
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+[5]
+<lamb2.png, id=32, 462.528pt x 346.896pt>
+File: lamb2.png Graphic file (type png)
+<use lamb2.png>
+Package pdftex.def Info: lamb2.png  used on input line 147.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+<lamb3.png, id=33, 462.528pt x 346.896pt>
+File: lamb3.png Graphic file (type png)
+<use lamb3.png>
+Package pdftex.def Info: lamb3.png  used on input line 149.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+<lamb4.png, id=34, 462.528pt x 346.896pt>
+File: lamb4.png Graphic file (type png)
+<use lamb4.png>
+Package pdftex.def Info: lamb4.png  used on input line 150.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 147--151
+[]
+ []
+
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 147--151
+[]
+ []
+
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 147--151
+[] 
+ []
+
+[6 <./lamb1.png>] [7 <./lamb2.png>] [8 <./lamb3.png>] [9 <./lamb4.png>] (build/Informe.aux) ) 
 Here is how much of TeX's memory you used:
- 1305 strings out of 480144
- 21975 string characters out of 5893198
- 315507 words of memory out of 5000000
- 19302 multiletter control sequences out of 15000+600000
+ 1334 strings out of 480144
+ 22355 string characters out of 5893198
+ 315509 words of memory out of 5000000
+ 19326 multiletter control sequences out of 15000+600000
  471587 words of font info for 36 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  55i,5n,62p,905b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/diani/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on build/Informe.pdf (6 pages, 108483 bytes).
+Output written on build/Informe.pdf (10 pages, 334270 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

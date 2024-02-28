@@ -34,7 +34,7 @@ El objetivo de este proyecto es modelar y analizar el comportamiento de una comp
     \item $\mu$: Distribución que modela el tiempo que cada asegurado existente permanece con la compañía.
     \item $c$: Tasa fija que los asegurados pagan a la compañía de seguros por unidad de tiempo.
     \item $T$: Duración de la Simulación.
-    \item $\lambda$: Tasa de llegada de nuevos clientes.
+    \item $\lambda$: Tasa de llegada de reclamaciones.
 \end{itemize}
 
 \section{Detalles de la Implementación}
@@ -42,8 +42,8 @@ El objetivo de este proyecto es modelar y analizar el comportamiento de una comp
 \subsection{Distribuciones escogidas}
 Luego de un análisis de como debiera ser el comportamiento de cada uno de los eventos (llegada de clientes, llegada de reclamaciones, etc.) se escogieron las siguientes Distribuciones para realizar la simulación:
 \begin{itemize}
-    \item Llegada de nuevos clientes: Se eligió la distribución de Poisson debido a que la tasa de llegada de nuevos clientes se considera constante o varía poco a lo largo del tiempo, donde el parámetro $\lambda$ ($lamb$) representa la tasa de llegada de los clientes por unidad de tiempo.
-    \item Cantidad de reclamaciones: Igualmente se escogió la Distribución de Poisson por el mismo motivo anterior.
+    \item Llegada de nuevos clientes: Se eligió la distribución de Poisson debido a que la tasa de llegada de nuevos clientes se considera constante o varía poco a lo largo del tiempo, donde el parámetro $v$ representa la tasa de llegada de los clientes por unidad de tiempo.
+    \item Cantidad de reclamaciones: Igualmente se escogió la Distribución de Poisson por el motivo anterior.
     \item Costo de las Reclamaciones: Se ha utilizado la distribución de Weibull pues esta permite modelar costos que pueden ser asimétricos y con colas pesadas.
     \item Tasa de retención de los clientes: Se ha escogido la Distribución Exponencial debido a su simplicidad y a que se ajusta bien a la aleatoriedad del tiempo que los clientes permanecen con la empresa.
     El parámetro $m$ de la distribución exponencial representa la tasa promedio de abandono de clientes.
@@ -133,5 +133,19 @@ Luego de un análisis de como debiera ser el comportamiento de cada uno de los e
  En el archivo \texttt{extra\_distributions\_functions.py} se encuentran funciones similares a las descritas en \texttt{sim\_functions.py} pero utilizando diferentes distribuciones a las escogidas inicialmente. Esto se realizó con fines experimentales para observar qué tanto cambiaba la simulación. Se realizó variando el parámetro $lamb$ pues es el que su variación más cambios aporta al comportamiento. 
 
  \section{Resultados y Experimentos}
- 
+ Se realizaron varias simulaciones, donde se variaban diferentes parámetros, en este caso: $lamb$, $v$ y $weib\_a$.
+
+ \subsection{Análisis de comportamiento variando el parámetro lamb}
+ El parámetro $lamb$ representa la tasa de llegada de las reclamaciones de los clientes a la empresa de seguros. Se realizaron 4 ejemplos diferentes, donde una ligera variación del parámetro $lamb$ ocasiona una diferencia significativa del comportamiento de la compañía. 
+ Para visualizar mejor, se adjuntan los gráficos correspondientes a cada uno de los casos.
+
+ \subsubsection{Ejemplo 1}
+ \includegraphics[scale = 0.8]{lamb1.png}
+ En este caso, se observa una tendencia a la disminución del capital de la empresa de seguros, hasta caer en la bancarrota.\\
+
+ \subsubsection{Ejemplo 2}
+ \includegraphics[scale = 0.8]{lamb2.png}
+ Este gráfico indica que la compañía de seguros tiene un alto riesgo de caer en bancarrota. La tendencia general del capital es descendente. Las fluctuaciones en el capital podrían ser causadas por eventos aleatorios, como la llegada de grandes reclamaciones o la pérdida de clientes.\\
+ \includegraphics[scale = 0.8]{lamb3.png}
+ \includegraphics[scale = 0.8]{lamb4.png}
 \end{document}
