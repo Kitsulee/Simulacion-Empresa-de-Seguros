@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1709092548 "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" "build/Informe.pdf" "Informe" 1709092557
+["pdflatex"] 1709098533 "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" "build/Informe.pdf" "Informe" 1709098537
   "/etc/texmf/web2c/texmf.cnf" 1653227187 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/diani/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1681188461 11524 587d8f135faf1cfa8ae8c77eac31bbbf ""
-  "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" 1709092545 17614 7758c6e3641f4d3cf46482dd40758537 ""
+  "/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex" 1709098532 21734 9bbe46cf9ac7f2fd4a2c0ea4a651b04f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -12,6 +12,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
@@ -34,8 +35,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1681181340 125915 807ff72f6023b33a59c427bfd156a3d1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1687863069 1477551 dc12ca333f6323312e3bbb675b151a64 ""
-  "Informe.tex" 1709092545 17614 7758c6e3641f4d3cf46482dd40758537 ""
-  "build/Informe.aux" 1709092556 3291 f055d3cb41ac512d3303c58ce6ba09f0 "pdflatex"
+  "Informe.tex" 1709098532 21734 9bbe46cf9ac7f2fd4a2c0ea4a651b04f ""
+  "build/Informe.aux" 1709098536 4447 d1f28a0afd8f8d84b437513a40827c58 "pdflatex"
   "dicomp.png" 1709090401 47225 ba47272ced41490123767bf4b2d37c60 ""
   "dis1.png" 1709090307 60630 32b77a554b086c92a8398675ea98b509 ""
   "dis2.png" 1709090317 54303 cea766ddf4cd49d19778e2b63a552676 ""

@@ -133,8 +133,12 @@ Luego de un análisis de como debiera ser el comportamiento de cada uno de los e
  En el archivo \texttt{extra\_distributions\_functions.py} se encuentran funciones similares a las descritas en \texttt{sim\_functions.py} pero utilizando diferentes distribuciones a las escogidas inicialmente. Esto se realizó con fines experimentales para observar qué tanto cambiaba la simulación. Se realizó variando el parámetro $lamb$ pues es el que su variación más cambios aporta al comportamiento. 
 
  \section{Resultados y Experimentos}
- Se realizaron varias simulaciones, donde se variaban diferentes parámetros, en este caso: $lamb$, $v$ y $weib\_a$. La variable de interés que se desea observar es $a$, representando el capital de la compañía de seguros. Específicamente se quiere observar si la compañía de seguros cae o no en bancarrota, bajo ciertas condiciones y diferentes valores de los parámetros. \\
- Las Simulaciones se realizarán hasta que el valor $a$ llegue debajo de cero, o que se alcance un tiempo máximo sin que esto suceda. 
+ Se realizaron varias simulaciones, donde se variaban diferentes parámetros, en este caso: $lamb$, $v$ y $weib\_a$. 
+ \subsection{Variables de Interés}
+ Específicamente se quiere observar si la compañía de seguros cae o no en bancarrota, bajo ciertas condiciones y diferentes valores de los parámetros. La variable de interés que se desea observar es $a$, representando el capital de la compañía de seguros.
+
+ \subsection{Análisis de parada de la simulación}
+Las Simulaciones se realizarán hasta que el valor $a$ llegue debajo de cero, o que se alcance un tiempo máximo sin que esto suceda. 
 
  \subsection{Análisis de comportamiento variando el parámetro lamb}
  El parámetro $lamb$ representa la tasa de llegada de las reclamaciones de los clientes a la empresa de seguros. Se realizaron 4 ejemplos diferentes, donde una ligera variación del parámetro $lamb$ ocasiona una diferencia significativa del comportamiento de la compañía. 
@@ -226,5 +230,81 @@ Se analiza el comportamiento del capital de la compañía de seguros, haciendo v
 
 En estos casos, el comportamiento es bastante similar, con una fuerte tendencia decreciente. Se quería observar qué tanto influía la selección de la Distribución adecuada o que mejor describiera el problema en el resultado del comportamiento del capital.
 A pesar de que se esocgió variar la tasa de llegada de las reclamaciones, se podría observar también variando los otros parámetros anteriormente analizados. 
+
+\section{Modelo Matemático}
+\subsection{Descripción del Modelo de la Simulación}
+
+\subsubsection{Variables}
+\begin{itemize}
+    \item $t$: Tiempo transcurrido en la simulación.
+    \item $n$: Número de asegurados en la compañía en un momento dado.
+    \item $a$: Capital de la compañía en un momento dado.
+    \item $claims$: Número de reclamaciones generadas por los asegurados existentes.
+    \item $claim_costs$: Costos de las reclamaciones generadas por los asegurados existentes.
+    \item  $income$: Ingresos generados por los asegurados existentes.
+    \item $expenses$: Gastos de la compañía debido a las reclamaciones.
+    \item $new\_customers$: Número de nuevos clientes generados en cada iteración.
+    \item $retention\_rates$: Tasas de retención de los asegurados existentes.
+    \item $retention$: Número de asegurados retenidos.
+\end{itemize}
+
+\subsubsection{Parámetros}
+\begin{itemize}
+    \item $n\_0$: Número inicial de asegurados.
+    \item $a\_0$: Capital inicial de la compañía.
+    \item $lamb$: Tasa promedio de reclamaciones de los asegurados existentes.
+    \item $c$: Costo promedio por asegurado.
+    \item $v$: Tasa promedio de llegada de nuevos clientes.
+    \item $m$: Parámetro de la distribución exponencial que modela la tasa de retención de los asegurados.
+    \item $weib\_a$: Parámetro de forma de la distribución de Weibull que modela los costos de las reclamaciones.
+    \item $T$: Tiempo máximo de la simulación.
+\end{itemize}
+
+\subsubsection{Eventos}
+\begin{itemize}
+    \item Llegada de un nuevo cliente a la compañía.
+    \item Llegada de una reclamación de un cliente de la compañía.
+    \item Salida de un cliente de la compañía.
+\end{itemize}
+
+\subsubsection{Inicialización}
+\begin{itemize}
+    \item $t = 0$
+    \item $a = a\_0$
+    \item $n = n\_0$
+\end{itemize}
+
+\subsubsection{Iteración}
+Mientras $t \leq T$ y $a \geq 0$
+\begin{itemize}
+    \item  Generar $claims$ (reclamaciones) utilizando una distribución de Poisson con tasa $lamb$ y $n$ asegurados.
+    \item Generar $claim_costs$ (costos de reclamaciones) utilizando una distribución de Weibull con parámetro de forma $weib\_a$ y $n$.
+    \item $income = n * c$
+    \item Calcular $expenses$ como la suma de los productos de $claims$ y $claims_costs$
+    \item  Generar $new\_customers$ (nuevos clientes) utilizando una distribución de Poisson con tasa $v$.
+    \item Generar $retention\_rates$ (tasas de retención de los asegurados existentes) utilizando una distribución exponencial con parámetro $m$ y $n$ asegurados.
+    \item Calcular $retention$ como el número de asegurados cuya tasa de retención es menor que 1.
+    \item $n = n + retention + new\_customers$
+    \item $a = a + income - expenses$
+    \item $t = t + 1$
+\end{itemize}
+
+\subsection{Supuestos y Restricciones}
+\subsubsection{Supuestos}
+\begin{itemize}
+    \item Se supone que la probabilidad de una reclamación no está influenciada por otras reclamaciones, es decir son independientes entre sí.
+    \item Se supone que la forma de la distribución de los costos de las reclamaciones es conocida. En este caso particular, se está usando la Distribución de Weibull para distribuirlas. 
+    \item Los nuevos clientes llegan de forma aleatoria, su llegada no está influenciada por ningún factor determinístico.
+    \item  Se asume que el capital inicial de la compañía es conocido y suficiente para cubrir los gastos iniciales y reclamaciones iniciales.
+    \item  Se supone que el tiempo de la simulación (T) es suficientemente largo para capturar las tendencias y comportamientos de la compañía de seguros.
+\end{itemize}
+
+\subsubsection{Restricciones}
+\begin{itemize}
+    \item El número de asegurados no puede ser negativo.
+    \item Los costos de las reclamaciones no pueden ser negativos.
+    \item El capital de la compañía de seguros no puede ser negativo (una vez llegue debajo de 0 se considera bancarrota)
+    \item La tasa de retención de clientes debe estar entre 0 y 1.
+\end{itemize}
 
 \end{document}
