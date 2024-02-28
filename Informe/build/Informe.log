@@ -1,0 +1,377 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.27)  28 FEB 2024 00:35
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex"
+(/home/diani/Diani/!Universidad/Ciencia de la Computación (Organizado)/4to Año/I Semestre/Simulación/Proyecto Simulación/Simulacion-Empresa-de-Seguros/Informe/Informe.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box50
+) (build/Informe.aux)
+\openout1 = `Informe.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count194
+\scratchdimen=\dimen141
+\scratchbox=\box51
+\nofMPsegments=\count195
+\nofMParguments=\count196
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count197
+\MPscratchDim=\dimen142
+\MPnumerator=\count198
+\makeMPintoPDFobject=\count199
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 27.
+ [1]
+Overfull \hbox (2.51447pt too wide) in paragraph at lines 55--56
+[]$[]$ \OT1/cmr/m/n/10 Uti-lizando las dis-tribu-ciones definidas, se deben
+ []
+
+
+Overfull \hbox (7.13953pt too wide) in paragraph at lines 57--58
+[]$[]$ \OT1/cmr/m/n/10 Du-rante la sim-u-laci^^Son, se deben mon-
+ []
+
+
+Overfull \hbox (4.44508pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 i-torear los cam-bios en el cap-i-tal disponible y de-ter-mi-nar cu^^Sando la compa~n^^S^^Pa
+ []
+
+[2] [3]
+Overfull \hbox (0.72585pt too wide) in paragraph at lines 103--104
+\OT1/cmr/m/n/10 Ejecuta repeti-da-mente la funci^^Son \OT1/cmtt/m/n/10 simulate[]insurance[]company \OT1/cmr/m/n/10 hasta que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[4] [5]
+<lamb1.png, id=30, 462.528pt x 346.896pt>
+File: lamb1.png Graphic file (type png)
+<use lamb1.png>
+Package pdftex.def Info: lamb1.png  used on input line 148.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 148--150
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+<lamb2.png, id=32, 462.528pt x 346.896pt>
+File: lamb2.png Graphic file (type png)
+<use lamb2.png>
+Package pdftex.def Info: lamb2.png  used on input line 152.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 152--154
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+[6 <./lamb1.png>]
+<lamb3.png, id=38, 462.528pt x 346.896pt>
+File: lamb3.png Graphic file (type png)
+<use lamb3.png>
+Package pdftex.def Info: lamb3.png  used on input line 156.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 156--158
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+[7 <./lamb2.png>]
+<lamb4.png, id=43, 462.528pt x 346.896pt>
+File: lamb4.png Graphic file (type png)
+<use lamb4.png>
+Package pdftex.def Info: lamb4.png  used on input line 160.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 160--163
+[]
+ []
+
+[8 <./lamb3.png>]
+<lambcompare.png, id=48, 462.528pt x 346.896pt>
+File: lambcompare.png Graphic file (type png)
+<use lambcompare.png>
+Package pdftex.def Info: lambcompare.png  used on input line 165.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 165--166
+[] 
+ []
+
+[9 <./lamb4.png>]
+<v1.png, id=53, 462.528pt x 346.896pt>
+File: v1.png Graphic file (type png)
+<use v1.png>
+Package pdftex.def Info: v1.png  used on input line 171.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 171--172
+[] 
+ []
+
+[10 <./lambcompare.png>]
+<v2.png, id=58, 462.528pt x 346.896pt>
+File: v2.png Graphic file (type png)
+<use v2.png>
+Package pdftex.def Info: v2.png  used on input line 174.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 174--175
+[] 
+ []
+
+[11 <./v1.png>]
+<v3.png, id=63, 462.528pt x 346.896pt>
+File: v3.png Graphic file (type png)
+<use v3.png>
+Package pdftex.def Info: v3.png  used on input line 177.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 177--178
+[] 
+ []
+
+[12 <./v2.png>]
+<v4.png, id=69, 462.528pt x 346.896pt>
+File: v4.png Graphic file (type png)
+<use v4.png>
+Package pdftex.def Info: v4.png  used on input line 180.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 180--181
+[] 
+ []
+
+[13 <./v3.png>]
+<vcomp.png, id=74, 462.528pt x 346.896pt>
+File: vcomp.png Graphic file (type png)
+<use vcomp.png>
+Package pdftex.def Info: vcomp.png  used on input line 183.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 183--184
+[] 
+ []
+
+[14 <./v4.png>]
+<weib1.png, id=79, 462.528pt x 346.896pt>
+File: weib1.png Graphic file (type png)
+<use weib1.png>
+Package pdftex.def Info: weib1.png  used on input line 190.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 190--191
+[] 
+ []
+
+[15 <./vcomp.png>]
+<weib2.png, id=84, 462.528pt x 346.896pt>
+File: weib2.png Graphic file (type png)
+<use weib2.png>
+Package pdftex.def Info: weib2.png  used on input line 193.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 193--194
+[] 
+ []
+
+[16 <./weib1.png>]
+<weib3.png, id=89, 462.528pt x 346.896pt>
+File: weib3.png Graphic file (type png)
+<use weib3.png>
+Package pdftex.def Info: weib3.png  used on input line 196.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 196--197
+[] 
+ []
+
+[17 <./weib2.png>]
+<weib4.png, id=94, 462.528pt x 346.896pt>
+File: weib4.png Graphic file (type png)
+<use weib4.png>
+Package pdftex.def Info: weib4.png  used on input line 199.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 199--200
+[] 
+ []
+
+[18 <./weib3.png>]
+<weibcomp.png, id=100, 462.528pt x 346.896pt>
+File: weibcomp.png Graphic file (type png)
+<use weibcomp.png>
+Package pdftex.def Info: weibcomp.png  used on input line 202.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 202--203
+[] 
+ []
+
+[19 <./weib4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--210
+
+ []
+
+[20 <./weibcomp.png>]
+<dis1.png, id=109, 462.528pt x 346.896pt>
+File: dis1.png Graphic file (type png)
+<use dis1.png>
+Package pdftex.def Info: dis1.png  used on input line 217.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 217--218
+[] 
+ []
+
+<dis2.png, id=110, 462.528pt x 346.896pt>
+File: dis2.png Graphic file (type png)
+<use dis2.png>
+Package pdftex.def Info: dis2.png  used on input line 220.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 220--221
+[] 
+ []
+
+[21 <./dis1.png>]
+<dis3.png, id=115, 462.528pt x 346.896pt>
+File: dis3.png Graphic file (type png)
+<use dis3.png>
+Package pdftex.def Info: dis3.png  used on input line 223.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 223--224
+[] 
+ []
+
+[22 <./dis2.png>]
+<dis4.png, id=120, 462.528pt x 346.896pt>
+File: dis4.png Graphic file (type png)
+<use dis4.png>
+Package pdftex.def Info: dis4.png  used on input line 226.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 226--227
+[] 
+ []
+
+[23 <./dis3.png>]
+<dicomp.png, id=125, 462.528pt x 346.896pt>
+File: dicomp.png Graphic file (type png)
+<use dicomp.png>
+Package pdftex.def Info: dicomp.png  used on input line 229.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+Overfull \hbox (25.02289pt too wide) in paragraph at lines 229--230
+[] 
+ []
+
+[24 <./dis4.png>] [25 <./dicomp.png>] [26] [27] [28] (build/Informe.aux) ) 
+Here is how much of TeX's memory you used:
+ 1446 strings out of 480144
+ 23817 string characters out of 5893198
+ 315509 words of memory out of 5000000
+ 19422 multiletter control sequences out of 15000+600000
+ 471587 words of font info for 36 fonts, out of 8000000 for 9000
+ 62 hyphenation exceptions out of 8191
+ 55i,6n,62p,905b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/diani/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on build/Informe.pdf (29 pages, 1126551 bytes).
+PDF statistics:
+ 188 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+

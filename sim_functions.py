@@ -55,7 +55,7 @@ def plot_ex(variable, value, amounts):
         plt.plot(amounts[i])
     plt.xlabel('Time')
     plt.ylabel('Capital')
-    plt.title(f'Grafico para {variable} = {value}')
+    plt.title(f'Gráfico para {variable} = {value}')
     plt.show()
 
 def execute(std_threshold, n_0, a_0, lamb, c, v, m, weib_a, T, varible_name, variable_value):

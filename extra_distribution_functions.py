@@ -83,9 +83,10 @@ def execute_dis(std_threshold, n_0, a_0, lamb, c, v, m, weib_a, T, varible_name,
     print("Standard deviation: ", std)
     print("Iterations: ", iter_count)
 
-def compare_dis():
+def compare_dis(labels):
     for i in range(len(comparative)):
-        plt.plot(comparative[i])
+        plt.plot(comparative[i], label = labels[i])
+        plt.legend()
     plt.xlabel('Time')
     plt.ylabel('Capital')
     plt.title('Comparación de los diferentes casos prueba')

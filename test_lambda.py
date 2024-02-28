@@ -32,5 +32,5 @@ execute_dis(std_threshold, n_0, a_0, lamb2, c, v, m, weib_a, T, "Lambda", 23)
 execute_dis(std_threshold, n_0, a_0, lamb3, c, v, m, weib_a, T, "Lambda", 22)
 execute_dis(std_threshold, n_0, a_0, lamb4, c, v, m, weib_a, T, "Lambda", 20)
 
-compare_dis()
+compare_dis(labels)
 
